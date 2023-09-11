@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.component.css">
+    <title>Registros</title>
+</head>
+
+<body>
+    
+    <div class="Forms">
+        <h1>Registro</h1>
+
+
+        <mat-form-field>
+            <input type="text" matInput placeholder="Nombre completo: ">
+        </mat-form-field>
+
+        <mat-form-field>
+        <mat-label>Tipo de documento</mat-label>
+        <mat-select>
+            <mat-option>CC</mat-option>
+            <mat-option>CE</mat-option>
+            <mat-option>NIT</mat-option>
+        </mat-select>
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="text" matInput placeholder="Número de documento: ">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="email" matInput placeholder="E-mail: ">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="number" matInput placeholder="Celular: ">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input type="password" matInput placeholder="Password: " matInput >
+        </mat-form-field>
+
+        <div class="registrar">
+            <a href="/login">¿Ya tienes cuenta? Inicia sesión</a>
+        </div>
+
+        <button mat-raised-button color="primary" type="submit" src="/bienvenido">Registrar</button>
+
+        
+
+
+        
+    </div>
+</body>
+
+</html>
